@@ -1,7 +1,7 @@
 import { ExplainedResult } from "../core/explained_result";
 import { createLogger } from "../core/logging";
 import { gComponentRegistry } from "../core/global_registries";
-import { SerializerInternal } from "./serializer_internal";
+import { SerializerInternal } from "./serializer_internal.ts";
 
 /**
  * @typedef {import("../game/component").Component} Component
