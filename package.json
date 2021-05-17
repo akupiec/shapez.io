@@ -9,6 +9,7 @@
     "scripts": {
         "postinstall": "cd gulp && yarn install",
         "dev": "cd gulp && yarn gulp main.serveDev",
+        "devStandalone": "cd gulp && yarn gulp main.serveStandalone",
         "tslint": "cd src/js && tsc",
         "lint": "eslint src/js",
         "prettier-all": "prettier src/ gulp/ --write --ignore-unknown",
